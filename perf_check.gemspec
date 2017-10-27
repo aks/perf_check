@@ -1,6 +1,11 @@
+lib = File.expand_path('../lib/', __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require 'perf_check/version'
+
 Gem::Specification.new do |s|
   s.name = 'perf_check'
-  s.version = '0.9.0'
+  s.version = PerfCheck::VERSION
   s.date = '2017-09-30'
   s.summary = 'PERF CHECKKK!'
   s.authors = ['rubytune']
@@ -9,6 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'pry'
+  s.add_development_dependency 'bundler'
   s.add_runtime_dependency 'colorize'
   s.add_runtime_dependency 'diffy'
   s.add_runtime_dependency 'rake'
@@ -23,7 +29,8 @@ Gem::Specification.new do |s|
              'lib/perf_check/output.rb',
              'lib/perf_check/railtie.rb',
              'lib/perf_check/server.rb',
-             'lib/perf_check/test_case.rb']
+             'lib/perf_check/test_case.rb',
+             'lib/perf_check/version.rb' ]
 
   s.executables << 'perf_check'
 end
