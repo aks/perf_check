@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    perf_check (0.9.0)
+    perf_check (0.9.1)
       colorize
       diffy
       fuubar
@@ -93,7 +93,7 @@ GEM
     multi_json (1.12.1)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
-    pry (0.11.1)
+    pry (0.11.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     pry-byebug (3.5.0)
@@ -130,9 +130,9 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (12.0.0)
     rdoc (4.3.0)
-    rspec-core (3.6.0)
-      rspec-support (~> 3.6.0)
-    rspec-support (3.6.0)
+    rspec-core (3.7.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.0)
     ruby-progressbar (1.9.0)
     sass (3.2.19)
     sass-rails (4.0.5)
@@ -182,4 +182,4 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.16.0.pre.2
+   1.16.0.pre.3

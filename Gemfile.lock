@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    perf_check (0.9.0)
+    perf_check (0.9.1)
       colorize
       diffy
       fuubar
@@ -27,7 +27,7 @@ GEM
     pry-byebug (3.5.0)
       byebug (~> 9.1)
       pry (~> 0.10)
-    rake (12.1.0)
+    rake (12.2.1)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
@@ -48,9 +48,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   perf_check!
   pry
   rspec
 
 BUNDLED WITH
-   1.16.0.pre.2
+   1.16.0.pre.3
