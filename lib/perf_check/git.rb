@@ -1,4 +1,5 @@
 require 'shellwords'
+require 'bundler'
 
 class PerfCheck
   class Git
